@@ -1,25 +1,23 @@
 body{
     margin: 0;
-    font-family: Roboto;
+    font-family: 'Proxima Nova Condensed', sans-serif;
 }
 
 header {
     width: 100%;
     height: 540px;
     background-color: lightblue;
+    background-image: url("http://wedontneeddst.com/img/bg/header-big-bg.jpg");
+    background: #aaf2f2 url(http://wedontneeddst.com/img/bg/header-big-bg.jpg) no-repeat;
+    background-size:contain;
+    background-position: center;
+
 }
 
-#section_1{
-    width: 100%;
-    height: 180px;
-    background-color: #f25454;
-    position: relative;
-}
 
 #title_wrap{
     width: 100%;
     height: 156px;
-    background-color: yellow;
     position: absolute;
     top: 120px;
 
@@ -28,10 +26,37 @@ header {
 #title{
     margin-top: 35px;
 
-    font-size: 60px;
+    font-size: 72px;
     font-weight: 900;
-    color: lightcoral;
+    color: #f15555;
     text-align: center;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+
+#subtitle{
+    margin-top: 5px;
+
+    font-size: 48px;
+    font-weight: 300;
+    color: #267299;
+    text-align: center;
+}
+
+
+
+#section_1{
+    width: 100%;
+    height: 132px;
+    background-color: #f25454;
+    position: relative;
+    padding-top: 40px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    color: rgba(255,255,255,0.9);
 }
 
 
