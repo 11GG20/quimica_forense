@@ -7,19 +7,26 @@ header {
     width: 100%;
     height: 540px;
     background-color: lightblue;
-    background-image: url("http://wedontneeddst.com/img/bg/header-big-bg.jpg");
-    background: #aaf2f2 url(http://wedontneeddst.com/img/bg/header-big-bg.jpg) no-repeat;
-    background-size:contain;
+    background-image: url("/images/Header.jpg");
+    background: #00010b url(/images/Header.jpg) no-repeat;
+    background-size:cover;
     background-position: center;
 
 }
 
 
 #title_wrap{
+    display: flex;
+    flex-direction: column;
+
     width: 100%;
-    height: 156px;
+    height: 200px;
     position: absolute;
     top: 120px;
+
+    align-items: center;
+    justify-content: center;
+
 
 }
 
@@ -35,10 +42,15 @@ header {
 
 #subtitle{
     margin-top: 5px;
+    width: 735px;
+
+    background-color: #0b0b0b8e;
 
     font-size: 48px;
     font-weight: 300;
-    color: #267299;
+    color: #d2d6c3;
+
+    /*text-shadow: #f15555a9 0 2px 5px;*/
     text-align: center;
 }
 
