@@ -32,8 +32,8 @@
         <section id="section_2">
             <div class="title">Como se Iniciou o Estudo da Ciência Forense?</div>
             <div class="round_images_wrapper">
-                <img  class="round_images"src="images/democrito.jpg" alt="">
-                <img class="round_images" src="images/blood_sample.jpg" alt="">
+                <img id="one" class="round_images"src="images/democrito.jpg" alt="" onmouseover="flip_coin('one')">
+                <img id="two" class="round_images" src="images/blood_sample.jpg" alt="" onmouseover="flip_coin('two')">
             </div>
             <div class=text_wrapper>
                 <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid beatae qui ipsum magnam deserunt, quasi omnis assumenda corrupti esse aliquam possimus nam, voluptatum odit. Ipsum soluta doloremque blanditiis in. Mollitia?</div>
@@ -56,5 +56,17 @@
     
 </body>
 
+<script>
+
+    function flip_coin(id) {
+        document.getElementById(id).style.animation="flip 0.8s"
+        setTimeout(() =>{
+            document.getElementById(id).style.animation=""
+        }, 810)
+    }
+
+</script>
+
 
 </html>
+
