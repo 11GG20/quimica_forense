@@ -11,7 +11,7 @@ header {
     background: #00010b url(/images/Header.jpg) no-repeat;
     background-size:cover;
     background-position: center;
-    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.596);
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.353);
 
 }
 
@@ -89,7 +89,7 @@ header {
     width: 100%;
     height: 588px;
     background-color: #f7f7f7;
-    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.596);
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.353);
 }
 
 .title{
@@ -211,7 +211,7 @@ header {
     width: 100%;
     height: 588px;
     background-color: #f7f7f7;
-    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.596);
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.353);
 }
 
 .round_images_wrapper.two{
@@ -237,19 +237,35 @@ header {
     width: 345px;
 }
 
-
-
 #section_5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
-    height: 579px;
-    background-color: #ffffff;
+    height: 132px;
+    background-color: #f25454;
+    position: relative;
+}
+
+.text_2.bigger{
+    font-size: 24px;
+    width: 1250px;
 }
 
 #section_6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
-    height: 188px;
-    background-color: #f25454;
+    height: 700px;
+    background-image: url(https://cdn.discordapp.com/attachments/708400535090364476/1237482529406062592/image.png?ex=663bceea&is=663a7d6a&hm=dfb7ea1849d4d7663cca88694dcb02b4ec1dba892c1f7dc4c75f8a411f8b831d&);
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.353);
 }
+
 
 footer{
     width: 100%;
