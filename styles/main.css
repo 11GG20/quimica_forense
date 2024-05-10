@@ -15,8 +15,8 @@ header {
     width: 100%;
     height: 540px;
     background-color: lightblue;
-    background-image: url("./images/Header.jpg");
-    background: #00010b url(./images/Header.jpg) no-repeat;
+    background-image: url("images/Header.jpg");
+    background: #00010b url(images/Header.jpg) no-repeat;
     background-size:cover;
     background-position: center;
     box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.6);
