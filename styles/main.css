@@ -209,9 +209,13 @@ header {
 .link{
     text-decoration: none;
     color: white;
+    transition: 0.2s;
     
 }
 
+.link:hover{
+    opacity: 0.5;
+}
 
 
 #section_4{
@@ -273,17 +277,31 @@ header {
     justify-content: center;
 
     width: 100%;
-    height: 700px;
+    height: 750px;
     background-image: url("https://az.genial.ly/genially/backgrounds/d973bc6e-b1de-4651-aecb-83c671c04b87.gif");    background-position: center;
     background-size: cover;
     box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.671);
+}
+
+#fita{
+    background-image: url(/images/file.png);
+    background-position: center;
+    background-size: 427px;
+    background-color: transparent;
 }
 
 
 footer{
     width: 100%;
     height: 540px;
-    background-color: #2a2040;
+    background-color: #0d071b;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 150px;
+    overflow-y: hidden;
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.716);
 }
 
 
