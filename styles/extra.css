@@ -69,23 +69,24 @@ main{
 }
 
 .text_container.fire{
-    width: 760px;
-    height: 340px;
+    width: 700px;
+    height: 285px;
 }
 
 .text_container.finger_print {
-    width: 825px;
-    height: 410px;
+    width: 790px;
+    height: 330px;
 }
 
 .text_container.blood {
+
     width: 825px;
-    height: 450px;
+    height: 400px;
 }
 
 .text_container.drugs {
-    width: 720px;
-    height: 300px;
+    width: 700px;
+    height: 200px;
 }
 
 
@@ -98,14 +99,14 @@ main{
 .title{
     color: black;
     font-weight: 800;
-    font-size: 33px;
+    font-size: 30px;
     margin: 20px;
 
 }
 
 .text{
     color: black;
-    font-size: 22px;
+    font-size: 19px;
     height: 290px;
     margin: 25px;
     text-align: justify;
