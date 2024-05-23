@@ -69,13 +69,14 @@ main{
 }
 
 .text_container.fire{
-    width: 700px;
-    height: 285px;
+    top: 44%;
+    width: 730px;
+    height: 380px;
 }
 
 .text_container.finger_print {
-    width: 790px;
-    height: 330px;
+    width: 750px;
+    height: 240px;
 }
 
 .text_container.blood {
