@@ -298,6 +298,7 @@ header {
 
     display: flex;
     align-items: center;
+    justify-content: center;
 
     overflow-y: hidden;
     box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.716);
